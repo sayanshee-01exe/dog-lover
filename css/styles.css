@@ -1,0 +1,189 @@
+body {
+  font-family: "Montserrat";
+}
+
+#padding {
+  padding: 5% 15%;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.H1 {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#company-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+  font-size: medium;
+  font-weight: 700;
+}
+
+/* download-buttons */
+
+.Download-Button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title-image */
+
+
+.title-image {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+
+}
+
+/* features */
+
+.features {
+  
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+ 
+}
+
+#about-features {
+  padding: 3% 10% 8%;
+  width: 90%;
+  
+  margin-bottom: 10px;
+}
+
+.features-h3-p {
+  margin: 30% 14% 20%;
+}
+
+.features-h3 {
+  font-family: serif;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.features-p {
+  font-size: 1.18rem;
+}
+
+.fas {
+  font-size: 5rem;
+  color: #f39189;
+  margin-bottom: 10px;
+}
+
+.fas:hover {
+  color: #e84545;
+}
+
+/* testimonials */
+
+#testimonials {
+  text-align: center;
+  background-color: #f39189;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-family: sans-serif;
+  font-size: 2rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+/* press */
+
+#press {
+  background-color: #f39189;
+  text-align: center;
+  padding: 1% 7% 7%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+#second-card {
+  padding: 20px;
+}
+
+#first-card {
+  padding: 20px;
+}
+
+#third-card {
+  padding: 20px;
+}
+
+
+#first-btn {
+  margin: 10px 0;
+}
+
+#second-btn {
+  margin: 10px 0;
+}
+
+#third-btn {
+  margin: 10px 0;
+}
+
+.pricing-h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+/* cta */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#cta-h3 {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 7% 9% 4%;
+  line-height: 1.5;
+}
+.btn {
+  margin-top: 10px;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+  padding: 5% 15% 10%;
+  line-height: 1;
+}
+
+.social-handel {
+  padding: 15px;
+}
