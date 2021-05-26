@@ -2,10 +2,6 @@ body {
   font-family: "Montserrat";
 }
 
-#padding {
-  padding: 5% 15%;
-}
-
 #title {
   background-color: #ff4c68;
 }
@@ -34,30 +30,31 @@ body {
   margin: 5% 3% 5% 0;
 }
 
-/* title-image */
+/* title */
 
+#padding {
+  padding: 5% 15% 7%;
+}
 
 .title-image {
   width: 20%;
   transform: rotate(25deg);
   position: absolute;
-
+  right: 20%;
 }
 
 /* features */
 
 .features {
-  
   text-align: center;
   background-color: #fff;
   position: relative;
- 
 }
 
 #about-features {
   padding: 3% 10% 8%;
   width: 90%;
-  
+
   margin-bottom: 10px;
 }
 
@@ -92,7 +89,7 @@ body {
   background-color: #f39189;
 }
 
-.carousel-item{
+.carousel-item {
   padding: 7% 15%;
 }
 
@@ -140,7 +137,6 @@ body {
   padding: 20px;
 }
 
-
 #first-btn {
   margin: 10px 0;
 }
@@ -186,4 +182,23 @@ body {
 
 .social-handel {
   padding: 15px;
+}
+
+/* media-query */
+
+@media (max-width: 1024px) {
+  #padding {
+    text-align: center;
+  }
+  #id-title-image {
+    width: 50%;
+    text-align: center;
+    position: static;
+    transform: rotate(0);
+  }
+
+  #features-row {
+    text-align: center;
+    margin: 15% 14%;
+  }
 }
